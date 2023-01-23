@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background: #1b2034;
+  color: #fff;
+}
+
+.App {
+  padding-top: 4.4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #eee;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.2rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.6rem;
+}
+
+button, a {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #15b89d;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+button:hover, a:hover {
+  color: #6decd7;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  border-radius: 0.6rem;
+}
+
+.url-ui {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.paste {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  color: rgb(255, 191, 15);
+}
+
+.paste:hover {
+  color: rgb(255, 240, 156)
+}
